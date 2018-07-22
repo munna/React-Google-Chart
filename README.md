@@ -19,7 +19,7 @@ npm i -s gchart-react
 `
 
 ## Quick Start
-`
+```
 import React from "react";
 import { render } from "react-dom";
 import { GoogleChart } from "gchart-react";
@@ -41,9 +41,9 @@ export default class App extends React.Component {
   }
 }
 render(<App />, document.querySelector("#app"));
-`
+```
 ## Other Chart
-`
+```
 <GoogleChart  chart="Pie" style={{height:"300px"}} data={pieData} options={{title:"Pie Chart"}}></GoogleChart>
 
  <GoogleChart  chart="Bar" style={{height:"300px"}} data={barData} options={{title:"Pie Chart"}}></GoogleChart>
@@ -52,7 +52,7 @@ render(<App />, document.querySelector("#app"));
 
 <GoogleChart  chart="Geo" style={{height:"300px"}} data={geoData} options={{title:"Pie Chart"}}></GoogleChart>
 <GoogleChart chart="Geo" style={{height:"300px"}} data={geoData} options={{title:"Pie Chart"}}></GoogleChart>
-`
+```
 ## Getting started
 
 Follow these steps to get started developing your own react component:
