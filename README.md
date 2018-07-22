@@ -12,11 +12,11 @@ The source code has two separate parts – the library and the documentation (de
 ## Installation
 
 With your favorite package manager (yarn, pnpm or npm) :
-`
+```
 yarn add gchart-react
 # or
 npm i -s gchart-react
-`
+```
 
 ## Quick Start
 ```
