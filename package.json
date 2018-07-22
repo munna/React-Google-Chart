@@ -1,7 +1,7 @@
 {
-  "name": "react-component-example-project",
-  "version": "0.1.0",
-  "description": "A minimal boilerplate for building a react component for npm, including a demo page.",
+  "name": "gchart-react",
+  "version": "1.0.0",
+  "description": "A startup project to support google chart in reactjs",
   "main": "lib/index.js",
   "scripts": {
     "dev": "concurrently \"npm run lib:watch\" \"npm run docs\"",
@@ -10,7 +10,7 @@
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production"
   },
-  "keywords": [],
+  "keywords": ["Google","Chart","React"],
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.3.0 || ^16.2.0",
@@ -39,9 +39,9 @@
     "webpack-dev-server": "^3.1.3"
   },
   "author": "Munna Bhakta <munna.bhakta1001@gmail.com>",
-  "homepage": "https://github.com/yogaboll/react-npm-component-starter",
+  "homepage": "https://munna.github.io/React-Google-Chart/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yogaboll/react-npm-component-starter.git"
+    "url": "git@github.com:munna/React-Google-Chart.git"
   }
 }
