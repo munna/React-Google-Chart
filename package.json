@@ -1,6 +1,6 @@
 {
   "name": "gchart-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A startup project to support google chart in reactjs",
   "main": "lib/index.js",
   "scripts": {
